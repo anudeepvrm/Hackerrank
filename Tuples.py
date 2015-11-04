@@ -1,0 +1,7 @@
+number = input()
+list1=input()
+list1=list1.split(" ")
+list1=tuple(list1)
+list1=list(map(lambda x:int(x),list1))
+list1=tuple(list1)
+print(hash(list1))
