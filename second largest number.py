@@ -12,14 +12,11 @@ First line contains N. Second line contains Array A[] of N integers each separat
 Output Format
 
 Value of the second largest number."""
-import copy
+
+
 number = int(input())
 list = input()
 list=list.split(" ")
-
 list=[int(x) for x in list]
-
 newlist=[int(x) for x in list if x!=max(list)]
-
-
 print(max(newlist))
