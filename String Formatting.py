@@ -19,3 +19,4 @@ binary=bin(number)[2:]
 length=(len(binary)+1)
 for i in range(number+1)[1:]:
     print(("%"+str(length-1)+"s"+"%"+str(length)+"s"+"%"+str(length)+"s"+"%"+str(length)+"s")%(i,oct(i)[2:],hex(i)[2:].upper(),bin(i)[2:]))
+
