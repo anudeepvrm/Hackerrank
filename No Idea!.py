@@ -23,6 +23,7 @@ Output a single integer, the answer."""
 list_size,set_size=[int(x) for x in input().strip().split(" ")]
 array=[int(x) for x in input().strip().split(" ")]
 set1,set2=((set(int(x) for x in input().strip().split(" "))) for _ in range(2))
+
 happiness=0
 for x in array:
     if x in set1:
